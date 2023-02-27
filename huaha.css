@@ -1,0 +1,15 @@
+.bot {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 200vh;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hahh {
+  height: 40vh;
+  width: 60vh;
+  background-color: rgb(18, 8, 2);
+}
