@@ -1,15 +1,16 @@
-.bot {
-  margin: 0%;
-  padding: 0%;
+.budy {
+  width: 220vh;
   height: 100vh;
-  width: 200vh;
-  background-color: brown;
+  background-color: cornflowerblue;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hahh {
-  height: 40vh;
-  width: 60vh;
-  background-color: rgb(18, 8, 2);
+.welcm {
+  width: 30%;
+  height: 40%;
+  background-color: rgb(39, 84, 166);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
