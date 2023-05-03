@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, initial-sclae=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bandy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="header">
+    
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="logojinh.jpg" width="125px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+      <img src="cart.png" width="30px" height="30px">
+      <img src="menu.png" class="menu-icon" width="30px" height="30px">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Enjoy your Life <br> and be happy!</h1>
+            <p>Success isn't always about greatness. It's about consistency. Consistent <br> hard work gains success. Greatness will come.</p>
+           <a href="" class="btn">Explore Now &#8594;</a>   
+        </div>
+       
+</div>
+</div>
+<!--------featured categories------->
+<div class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3"><img src="category-1.jfif" height="200px"></div>
+        <div class="col-3"><img src="category-2.jpg" height="200px" ></div>
+        <div class="col-3"><img src="category-3.jpg" height="200px"></div>
+    </div>
+</div>
+</div>
+<!--------Featured Product-------->
+<div class="small-container">
+    <h2 class="title">Онцлох</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="lollipop.jfif">
+            <h4>Гүзээлзгэнэтэй lollipop</h4>
+            <p>2300төг</p>
+        </div>
+        <div class="col-4">
+            <img src="buramhan.jpg">
+            <h4>Бурамхан</h4>
+            <p>1500төг</p>
+        </div>
+         <div class="col-4">
+            <img src="m&m.jfif">
+            <h4>m&m самартай</h4>
+            <p>1800төг</p>
+        </div>
+        <div class="col-4">
+            <img src="skitlles.jfif">
+            <h4>Skittles</h4>
+            <p>2100төг</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="hubba.jpg">
+            <h4>Гүзээлзгэнэтэй бохь /hubba bubba/</h4>
+            <p>1800төг</p>
+        </div>
+        <div class="col-4">
+            <img src="kenpoi.jpg">
+            <h4>konpeito</h4>
+            <p>2500төг</p>
+        </div>
+         <div class="col-4">
+            <img src="kikilala.jpg">
+            <h4>kiki&lala</h4>
+            <p>3100төг</p>
+        </div>
+        <div class="col-4">
+            <img src="xylitol.jpg">
+            <h4>xylitol /BTS/</h4>
+            <p>2100төг</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="anim.jpg">
+            <h4>HOTARU NO HAKA candy</h4>
+            <p>1800төг</p>
+        </div>
+        <div class="col-4">
+            <img src="sakura.jpg">
+            <h4>Sakura</h4>
+            <p>2500төг</p>
+        </div>
+         <div class="col-4">
+            <img src="haribo.jpg">
+            <h4>Haribo</h4>
+            <p>3100төг</p>
+        </div>
+        <div class="col-4">
+            <img src="gashig.webp">
+            <h4>fruit candy/жимстэй чихэр/</h4>
+            <p>2100төг</p>
+        </div>
+    </div>
+</div>
+<!------- offer ------->
+  <div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="offeriih.jpg" class="offer-img">
+            </div>
+            <div class="col-2">
+                 <p>Candy jar</p>
+                 <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+  </div>
+ <!--------footer-->
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="logojinh.jpg">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and
+                     Benefits of Sports Accesible tothe Many.</p>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!------------js for toggle menu---------------->
+  <script>
+    var MenuItems = document.getElementByld("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else 
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+     < script src="./cundy.js"></script>
+</body>
+</html>  
